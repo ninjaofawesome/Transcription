@@ -6629,16 +6629,27 @@ h6 {
 
 .body-content {
   z-index: 0;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .transcription-notes {
   text-align: justify;
   padding: 0 2%;
 }
+.transcription-notes.intro-transcription {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #ffc31c;
+}
 
-.box {
-  width: 300px;
-  height: 300px;
-  border: 2px solid #cccccc;
+.transcription-link {
+  text-decoration: underline;
+  color: #999999;
+}
+.transcription-link:hover, .transcription-link:active {
+  color: #ffc31c;
+  text-decoration: underline;
+}
+.transcription-link:visited {
+  color: #999999;
 }

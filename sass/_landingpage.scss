@@ -36,16 +36,27 @@
 
 .body-content{
   z-index: 0;
-  margin-top: 50px;
+  margin-top: 60px;
 
 }
 .transcription-notes{
   text-align: justify;
   padding: 0 2%;
+  &.intro-transcription{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: $gold;
+  }
 }
 
-.box{
-  width: 300px;
-  height: 300px;
-  border: 2px solid $light-gray;
+.transcription-link {
+  text-decoration: underline;
+  color: $med-gray;
+  &:hover, &:active {
+    color: $gold;
+    text-decoration: underline;
+  }
+  &:visited{
+    color: $med-gray;
+  }
 }
