@@ -6653,3 +6653,17 @@ h6 {
 .transcription-link:visited {
   color: #999999;
 }
+
+.video-player {
+  position: fixed;
+}
+
+.search-image {
+  padding: 10% 0;
+}
+
+.search-input {
+  background-color: #141414 !important;
+  border: 1px solid #cccccc !important;
+  color: #cccccc !important;
+}

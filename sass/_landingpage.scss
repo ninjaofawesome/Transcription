@@ -60,3 +60,8 @@
     color: $med-gray;
   }
 }
+
+.video-player{
+  //ps, this will probably cause issues on smaller devices, why fixed?
+  position: fixed;
+}
