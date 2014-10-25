@@ -6632,6 +6632,56 @@ h6 {
   margin-top: 60px;
 }
 
+.my-input {
+  background-color: #141414;
+  border: 1px solid #cccccc;
+}
+
+.search-button {
+  background-color: #999999;
+  color: #141414;
+  font-weight: 400;
+  border: 1px solid #999999;
+}
+
+.search-grid {
+  margin: 0;
+  padding: 0;
+}
+.search-grid:first-child {
+  margin: 5% 0 0 0;
+}
+
+.header-text, .body-text {
+  color: #cccccc;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.search-box {
+  border: 1px solid #999999;
+  height: 50px;
+  color: #cccccc;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: table;
+}
+.search-box.body-box {
+  height: 100px;
+}
+
+.search-term {
+  color: #999999;
+  text-decoration: underline;
+}
+.search-term:hover, .search-term:active, .search-term:focus {
+  color: #cccccc;
+}
+.search-term:visited {
+  color: #ffc31c;
+}
+
 .transcription-notes {
   text-align: justify;
   padding: 0 2%;
